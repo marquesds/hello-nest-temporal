@@ -6,14 +6,14 @@ A simple hello world project created with NestJS and Temporal running both (serv
 $ pnpm install
 ```
 
-## Running
-```shell
-$ pnpm run start:dev
-```
-
 ## Executing Temporal Server
 ```shell
 $ temporal server start-dev
+```
+
+## Running Both NestJS Server and Temporal Worker
+```shell
+$ pnpm run start:dev
 ```
 
 ## Running The Example
